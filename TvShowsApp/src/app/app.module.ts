@@ -10,8 +10,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
-import { MatCheckboxModule } from '@angular/material/checkbox'; // Asegúrate de importar MatCheckboxModule
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Importa FormsModule y ReactiveFormsModule
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TvShowListComponent } from './components/tv-show-list/tv-show-list.component';
@@ -34,9 +34,9 @@ import { TvShowDialogComponent } from './components/tv-show-dialog/tv-show-dialo
     MatFormFieldModule,
     MatInputModule,
     MatDialogModule,
-    MatCheckboxModule, // Asegúrate de importar MatCheckboxModule
-    FormsModule, // Agrega FormsModule
-    ReactiveFormsModule // Agrega ReactiveFormsModule
+    MatCheckboxModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
